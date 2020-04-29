@@ -18,8 +18,8 @@ Transform Data:
 1.	Oscar Data from Kaggle. The following transformations were conducted on the data obtained from the above sources.
 
 	a.	All the transformations were completed using python in a Jupyter Notebook using Pandas.
-		b.	Drop unwanted columns. Keep only relevant columns that make sense.
-		c.	Reordered the columns as Movie, Person, Award, Year_of_award, Birthplace, Data_of_birth and Biourl.
+	b.	Drop unwanted columns. Keep only relevant columns that make sense.
+	c.	Reordered the columns as Movie, Person, Award, Year_of_award, Birthplace, Data_of_birth and Biourl.
 		d.	Using the replace method we removed the ‘_’ in the column names.
 		e.	Split the full name of the actors/actresses/directors into two separate columns of first name and last name using the split method.
 		f.	Split the date of birth for the person and extract only the year of birth using the split method.
