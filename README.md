@@ -4,6 +4,7 @@ Objective:
 	Exploratory data analysis to understand if the income level of the country to which the artist belongs to has any relation to the probability of them winning an Oscar.
 
 Team Members:
+
 1.	Suhas Karanth
 2.	Vijay Ghanapaati
 
