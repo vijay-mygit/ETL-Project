@@ -17,7 +17,7 @@ The data was obtained from 3 different sources
 Transform Data:
 1.	Oscar Data from Kaggle. The following transformations were conducted on the data obtained from the above sources.
 
-		a.	All the transformations were completed using python in a Jupyter Notebook using Pandas.
+	a.	All the transformations were completed using python in a Jupyter Notebook using Pandas.
 		b.	Drop unwanted columns. Keep only relevant columns that make sense.
 		c.	Reordered the columns as Movie, Person, Award, Year_of_award, Birthplace, Data_of_birth and Biourl.
 		d.	Using the replace method we removed the ‘_’ in the column names.
