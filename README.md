@@ -16,32 +16,32 @@ The data was obtained from 3 different sources
 
 Transform Data:
 1.	Oscar Data from Kaggle. The following transformations were conducted on the data obtained from the above sources.
-	a.	All the transformations were completed using python in a Jupyter Notebook using Pandas.
-	b.	Drop unwanted columns. Keep only relevant columns that make sense.
-	c.	Reordered the columns as Movie, Person, Award, Year_of_award, Birthplace, Data_of_birth and Biourl.
-	d.	Using the replace method we removed the ‘_’ in the column names.
-	e.	Split the full name of the actors/actresses/directors into two separate columns of first name and last name using the split method.
-	f.	Split the date of birth for the person and extract only the year of birth using the split method.
-	g.	We observed some of the years were only two digits, hence we added a prefix of ’19’ to make all the years in the format YYYY. This was completed using the lambda function in the apply method.
-	h.	The place of birth column which contained the city and country was split to extract only the country of birth as a separate column using split and then the apply method to get the last element of the list as the country.
-	i.	We observed that for United states, the name of the state was mentioned instead of country hence we changed it to reflect as United States wherever the country column had only 2 letters. This was done using function lambda. 
-	j.	Countries Scotland, England and Wales do not have a specific Iso code hence we had to change them to United Kingdom.
-	k.	Similarly, Czechoslovakia was changed to Czechia as that is current name of the country with an Iso code.
+		a.	All the transformations were completed using python in a Jupyter Notebook using Pandas.
+		b.	Drop unwanted columns. Keep only relevant columns that make sense.
+		c.	Reordered the columns as Movie, Person, Award, Year_of_award, Birthplace, Data_of_birth and Biourl.
+		d.	Using the replace method we removed the ‘_’ in the column names.
+		e.	Split the full name of the actors/actresses/directors into two separate columns of first name and last name using 			the split method.
+		f.	Split the date of birth for the person and extract only the year of birth using the split method.
+		g.	We observed some of the years were only two digits, hence we added a prefix of ’19’ to make all the years in the 			format YYYY. This was completed using the lambda function in the apply method.
+		h.	The place of birth column which contained the city and country was split to extract only the country of birth as 			a separate column using split and then the apply method to get the last element of the list as the country.
+		i.	We observed that for United states, the name of the state was mentioned instead of country hence we changed it to 			reflect as United States wherever the country column had only 2 letters. This was done using function lambda. 
+		j.	Countries Scotland, England and Wales do not have a specific Iso code hence we had to change them to United 				Kingdom.
+		k.	Similarly, Czechoslovakia was changed to Czechia as that is current name of the country with an Iso code.
 
 
 
 2.	Country code Data from Wiki.
-	a.	Extracted the scraped data as a html table from the Wikipedia page.
-	b.	Select the relevant table which contains the country iso codes.
-	c.	Drop unwanted columns and rename the columns as required.
-	d.	The country names Moldova, Taiwan, Russia, United Kingdom were not consistent hence it was transformed to reflect uniform country names.
-	e.	Since the Oscar dataframe had Canary Islands as a country we added the country and corresponding Iso code to the data as it was missing.
+		a.	Extracted the scraped data as a html table from the Wikipedia page.
+		b.	Select the relevant table which contains the country iso codes.
+		c.	Drop unwanted columns and rename the columns as required.
+		d.	The country names Moldova, Taiwan, Russia, United Kingdom were not consistent hence it was transformed to reflect 				uniform country names.
+		e.	Since the Oscar dataframe had Canary Islands as a country we added the country and corresponding Iso code to the 			data as it was missing.
 
 
 3.	Country API data
-	a.	Obtained the base URL for the API query.
-	b.	Ran a for loop through the previous wiki data frame to obtain the Region, Income level and Capital city for each country from the Json returned by the API.
-	c.	Stored the info obtained in a dataframe.
+		a.	Obtained the base URL for the API query.
+		b.	Ran a for loop through the previous wiki data frame to obtain the Region, Income level and Capital city for each 			country from the Json returned by the API.
+		c.	Stored the info obtained in a dataframe.
 
 
 
