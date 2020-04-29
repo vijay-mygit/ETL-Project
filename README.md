@@ -1,7 +1,5 @@
 # ETL-Project
 
-ETL Project
-
 Objective: 
 	Exploratory data analysis to understand if the income level of the country to which the artist belongs to has any relation to the probability of them winning an Oscar.
 
