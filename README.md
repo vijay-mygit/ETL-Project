@@ -10,9 +10,9 @@ Team Members:
 
 Extract Data: 
 The data was obtained from 3 different sources
-1.	Oscars data from Kaggle in the form of csv. - link
-2.	Country iso code data from Wikipedia page through web scraping as a Pandas Dataframe - link
-3.	Country economic details data was extracted from the world bank data API as a Json object in Pandas. - link
+1.	Oscars data from Kaggle in the form of csv. - https://www.kaggle.com/fmejia21/demographics-of-academy-awards-oscars-winners
+2.	Country iso code data from Wikipedia page through web scraping as a Pandas Dataframe - https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
+3.	Country economic details data was extracted from the world bank data API as a Json object in Pandas. - https://datahelpdesk.worldbank.org/knowledgebase/articles/898590-country-api-queries
 
 Transform Data:
 1.	Oscar Data from Kaggle. The following transformations were conducted on the data obtained from the above sources.
