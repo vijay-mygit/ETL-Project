@@ -16,6 +16,7 @@ The data was obtained from 3 different sources
 
 Transform Data:
 1.	Oscar Data from Kaggle. The following transformations were conducted on the data obtained from the above sources.
+
 		a.	All the transformations were completed using python in a Jupyter Notebook using Pandas.
 		b.	Drop unwanted columns. Keep only relevant columns that make sense.
 		c.	Reordered the columns as Movie, Person, Award, Year_of_award, Birthplace, Data_of_birth and Biourl.
@@ -31,6 +32,7 @@ Transform Data:
 
 
 2.	Country code Data from Wiki.
+
 		a.	Extracted the scraped data as a html table from the Wikipedia page.
 		b.	Select the relevant table which contains the country iso codes.
 		c.	Drop unwanted columns and rename the columns as required.
@@ -39,6 +41,7 @@ Transform Data:
 
 
 3.	Country API data
+
 		a.	Obtained the base URL for the API query.
 		b.	Ran a for loop through the previous wiki data frame to obtain the Region, Income level and Capital city for each 			country from the Json returned by the API.
 		c.	Stored the info obtained in a dataframe.
